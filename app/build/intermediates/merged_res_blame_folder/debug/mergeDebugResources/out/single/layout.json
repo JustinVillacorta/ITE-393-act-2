@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Justin\\.gradle\\daemon\\8.9\\com.example.activity2.app-mergeDebugResources-30:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Justin\\.gradle\\daemon\\8.9\\com.example.activity2.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.activity2.app-mergeDebugResources-30:/layout/rv_countries.xml",
+        "source": "com.example.activity2.app-main-33:/layout/rv_countries.xml"
+    },
+    {
+        "merged": "C:\\Users\\Justin\\.gradle\\daemon\\8.9\\com.example.activity2.app-mergeDebugResources-30:\\layout\\rv_countries.xml",
+        "source": "C:\\Users\\Justin\\.gradle\\daemon\\8.9\\com.example.activity2.app-main-33:\\layout\\rv_countries.xml"
+    }
+]

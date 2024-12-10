@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable baseline_flag_24
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id imageView
+id main
+id recyclerView
+id tvCapital
+id tvName
+layout activity_main
+layout rv_countries
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Activity2
+style Theme.Activity2
+xml backup_rules
+xml data_extraction_rules
