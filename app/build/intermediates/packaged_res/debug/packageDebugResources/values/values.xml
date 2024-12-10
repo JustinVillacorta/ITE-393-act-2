@@ -2,7 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">activity 2</string>
+    <string name="app_name">ITE 393 - Activity 2</string>
     <style name="Base.Theme.Activity2" parent="Theme.Material3.DayNight.NoActionBar">
         
         

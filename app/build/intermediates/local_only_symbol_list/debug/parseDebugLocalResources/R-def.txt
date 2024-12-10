@@ -28,6 +28,7 @@ drawable vietnam
 id imageView
 id main
 id recyclerView
+id textView
 id tvCapital
 id tvName
 layout activity_main

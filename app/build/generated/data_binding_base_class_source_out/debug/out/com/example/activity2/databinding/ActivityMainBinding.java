@@ -4,6 +4,7 @@ package com.example.activity2.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -25,11 +26,15 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final RecyclerView recyclerView;
 
+  @NonNull
+  public final TextView textView;
+
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout main,
-      @NonNull RecyclerView recyclerView) {
+      @NonNull RecyclerView recyclerView, @NonNull TextView textView) {
     this.rootView = rootView;
     this.main = main;
     this.recyclerView = recyclerView;
+    this.textView = textView;
   }
 
   @Override
@@ -67,7 +72,13 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, main, recyclerView);
+      id = R.id.textView;
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
+      if (textView == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, main, recyclerView, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
