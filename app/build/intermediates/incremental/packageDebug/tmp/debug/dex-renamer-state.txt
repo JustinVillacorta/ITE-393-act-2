@@ -1,12 +1,12 @@
-#Tue Dec 10 20:01:28 CST 2024
-base.0=C\:\\Users\\Justin\\AndroidStudioProjects\\ITE-393-act-2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\Justin\\AndroidStudioProjects\\ITE-393-act-2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\Justin\\AndroidStudioProjects\\ITE-393-act-2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
-base.3=C\:\\Users\\Justin\\AndroidStudioProjects\\ITE-393-act-2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+#Wed Dec 11 00:23:53 PST 2024
+base.0=C\:\\Users\\proga\\AndroidStudioProjects\\ITE-393-act-2\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=C\:\\Users\\proga\\AndroidStudioProjects\\ITE-393-act-2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=C\:\\Users\\proga\\AndroidStudioProjects\\ITE-393-act-2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
+base.3=C\:\\Users\\proga\\AndroidStudioProjects\\ITE-393-act-2\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\6\\classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
-path.2=6/classes.dex
-path.3=5/classes.dex
+path.2=5/classes.dex
+path.3=6/classes.dex
 renamed.0=classes.dex
 renamed.1=classes2.dex
 renamed.2=classes3.dex

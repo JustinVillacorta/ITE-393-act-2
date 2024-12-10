@@ -3,6 +3,7 @@ package com.example.activity2
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
@@ -11,6 +12,7 @@ class CountryAdapter(private val items: List<CountryData>) : RecyclerView.Adapte
     class ItemViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val nameText: TextView = view.findViewById(R.id.tvName)
         val capitalText: TextView = view.findViewById(R.id.tvCapital)
+        val iconImage: ImageView = view.findViewById(R.id.imageView)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {
@@ -23,6 +25,7 @@ class CountryAdapter(private val items: List<CountryData>) : RecyclerView.Adapte
         val item = items[position]
         holder.nameText.text = item.name
         holder.capitalText.text = item.capital
+        holder.iconImage.setImageResource(item.CountryImg)
     }
 
     override fun getItemCount(): Int = items.size

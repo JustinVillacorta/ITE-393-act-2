@@ -14,26 +14,26 @@ class MainActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
 
         val items = listOf(
-            CountryData("JAPAN", "TOKYO"),
-            CountryData("NIGERIA", "ABUJA"),
-            CountryData("USA", "WASHINGTON"),
-            CountryData("PHILIPPINES", "MANILA"),
-            CountryData("UK", "LONDON"),
-            CountryData("DENMARK", "COPENHAGEN"),
-            CountryData("FRANCE", "PARIS"),
-            CountryData("FINLAND", "HELSINKI"),
-            CountryData("POLAND", "WARSAW"),
-            CountryData("AUSTRALIA", "CANBERRA"),
-            CountryData("IRELAND", "DUBLIN"),
-            CountryData("RUSSIA", "MOSCOW"),
-            CountryData("UKRAINE", "KYIV"),
-            CountryData("BRAZIL", "BRASILIA"),
-            CountryData("CANADA", "OTTAWA"),
-            CountryData("SINGAPORE", "SINGAPORE"),
-            CountryData("CHINA", "BEIJING"),
-            CountryData("NETHERLANDS", "AMSTERDAM"),
-            CountryData("VIETNAM", "HANOI"),
-            CountryData("GERMANY", "BERLIN")
+            CountryData("JAPAN", "TOKYO", R.drawable.japan),
+            CountryData("NIGERIA", "ABUJA", R.drawable.nigeria),
+            CountryData("USA", "WASHINGTON", R.drawable.usa),
+            CountryData("PHILIPPINES", "MANILA", R.drawable.ph),
+            CountryData("UK", "LONDON", R.drawable.uk),
+            CountryData("DENMARK", "COPENHAGEN", R.drawable.denmark),
+            CountryData("FRANCE", "PARIS", R.drawable.france),
+            CountryData("FINLAND", "HELSINKI", R.drawable.finland),
+            CountryData("POLAND", "WARSAW", R.drawable.poland),
+            CountryData("AUSTRALIA", "CANBERRA", R.drawable.ausy),
+            CountryData("IRELAND", "DUBLIN", R.drawable.ireland),
+            CountryData("RUSSIA", "MOSCOW", R.drawable.russia),
+            CountryData("UKRAINE", "KYIV", R.drawable.ukraine),
+            CountryData("BRAZIL", "BRASILIA", R.drawable.brazil),
+            CountryData("CANADA", "OTTAWA", R.drawable.canada),
+            CountryData("SINGAPORE", "SINGAPORE", R.drawable.singapore),
+            CountryData("CHINA", "BEIJING", R.drawable.china),
+            CountryData("NETHERLANDS", "AMSTERDAM", R.drawable.netherelands),
+            CountryData("VIETNAM", "HANOI", R.drawable.vietnam),
+            CountryData("GERMANY", "BERLIN", R.drawable.germany)
         )
 
         val adapter = CountryAdapter(items)
