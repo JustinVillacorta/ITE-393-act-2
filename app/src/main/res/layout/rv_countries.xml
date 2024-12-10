@@ -39,18 +39,18 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/tvCapital"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="Capital"
-            android:textColor="@color/black"
-            android:textSize="30dp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.535"
-            app:layout_constraintStart_toEndOf="@+id/imageView"
-            app:layout_constraintTop_toBottomOf="@+id/tvName" />
+                android:id="@+id/tvCapital"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Capital"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.535"
+                app:layout_constraintStart_toEndOf="@+id/imageView"
+                app:layout_constraintTop_toBottomOf="@+id/tvName"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
