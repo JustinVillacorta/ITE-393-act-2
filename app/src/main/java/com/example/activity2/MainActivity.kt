@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
             CountryData("Singapore", "Singapore", R.drawable.singapore),
             CountryData("China", "Beijing", R.drawable.china),
             CountryData("Netherlands", "Amsterdam", R.drawable.netherelands),
-            CountryData("Vietname", "Hanoi", R.drawable.vietnam),
+            CountryData("Vietnam", "Hanoi", R.drawable.vietnam),
             CountryData("Germany", "Berlin", R.drawable.germany)
         )
 
